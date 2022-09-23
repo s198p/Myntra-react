@@ -1,22 +1,23 @@
 .navbar{
     background-color: white;
     width: 100%;
-    height: 4.2rem;
+    height: 6.5rem;
     position: sticky;
     top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    justify-items: center;
     box-sizing: border-box;
-    padding: 0px 50px;
+    padding: 0rem 3rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-weight: bold;
     color: black;
 }
 
 .mainlogo{
-    width: 60px;
-    height:60px;
+    width: 3.63rem;
+    height:3.63rem;
     background-color: white;
     color: black;
 }
@@ -35,29 +36,7 @@
     background: white;
 }
 #sicon{
-    padding: 10px;
-}
-.profile,.wishlist,.bag{
-text-align: center;
-color: gray;
-
-}
-.profile>p,.wishlist>p,.bag>p{
-    margin-top: -0px;
-    font-size: 12px;
-    color: black;
-}
-.profile>NavLink>i,.wishlist>NavLink>i,.bag>NavLink>i{
-    color:gray;
-}
-img~a>div{
-    color:black;
-}
-a:link{
-    text-decoration: none;
-}
-a>div{
-    color: black;
+    padding: 0.63rem;
 }
 
 input {
@@ -66,6 +45,7 @@ input {
     height: 40px;
     width: 90%;
     color: #CCC;
+    font-size:1.1rem
 }
 textarea:focus,input:focus
 {
@@ -77,6 +57,40 @@ img{
 }
 .nav{
     display:flex;
-    gap:1rem;
+    gap:1.5rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.menlink,.womenlink,.kidslink,.homelivinglink,.beautylink,.studiolink{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.menlink:hover{
+    border-bottom: 5px red solid;
+}
+.womenlink:hover{
+    border-bottom: 5px pink solid;
+}
+.kidslink:hover{
+    border-bottom: 5px orange solid;
+}
+.homelivinglink:hover{
+    border-bottom: 5px yellow solid;
+}
+.beautylink:hover{
+    border-bottom: 5px teal solid;
+}
+.studiolink:hover{
+    border-bottom: 5px red solid;
+}
+p{
+    margin-top:-0.1rem;
+    font-size:1rem
+}
+i{
+    height:1.5rem;
 }
