@@ -6,6 +6,7 @@ import {
 import Home from "./Components/Home"
 import Navbar from './Components/Navbar';
 import Footer from "./Components/Footer"
+import Men from './Components/Men';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home  />} />
+        <Route path="/men" element={<Men/>} />
       </Routes>
       <Footer/>
       {/* <Home/> */}

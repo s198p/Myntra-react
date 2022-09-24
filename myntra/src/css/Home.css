@@ -1,9 +1,14 @@
-.container {
-/* background-color: #f7f7f7 ; */
-}
+
 .deals{
     display:flex;
     gap:2rem;
+    gap:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.deals>div>img{
+    height:23rem
 }
 .bigdeals{
     display:flex;
@@ -11,4 +16,94 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.bigdeals>div>img{
+    height:32rem
+}
+.categories{
+    display:flex;
+    gap:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.categories>div>img{
+    height:15rem;
+    width:13.5rem;
+}
+
+.topbrands{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+}
+.topbrands>div>img{
+    height:15rem;
+}
+
+.lux{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lux>div>img{
+    height:16.25rem
+}
+
+.wtrend{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wtrend>div>img{
+    height:20rem
+}
+
+.indtrend{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.indtrend>div>img{
+    height:20rem
+}
+.sporttrend{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sporttrend>div>img{
+    height:20rem
+}
+.fweartrend{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fweartrend>div>img{
+    height:20rem
+}
+.accesories{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.accesories>div>img{
+    height:20rem
+}
+img{
+    cursor:pointer;
 }

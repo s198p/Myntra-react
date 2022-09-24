@@ -37,7 +37,7 @@ const Home = () => {
     
     ];
 
-    var trendData = [{
+    var wtrendData = [{
         img: "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/655751e9-66c3-49b5-acfc-a508068e6e581595936000398-Content-westernwear-Trends-Vibrantcolourblocks.jpg"
     },
     {
@@ -54,7 +54,7 @@ const Home = () => {
     },
     ];
 
-    var indianWereData = [
+    var indianWearData = [
         {
             img: "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/a9f68785-e282-425a-b270-c978c387b0f31597840342635-Content-ethnicwear-color-whites.jpg"
         },
@@ -296,6 +296,104 @@ const Home = () => {
             }
             </div>
 
+        </div>
+        <div>
+            <h1>CATEGORIES TO BAG</h1>
+            <div className="categories">
+            {
+                catagoryData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img1}/>
+                        <img src={item.img2}/>
+                    </div>
+                ))
+            }
+            </div>
+        </div>
+        <div>
+            <h1>EXPLORE TOP BRANDS</h1>
+            <div className="topbrands">
+            {
+                brandData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img1}/>
+                        <img src={item.img2}/>
+                    </div>
+                ))
+            }
+            </div>
+        </div>
+        <div>
+            <h1>MYNTRA LUXE</h1>
+            <div className="lux">
+            {
+                luxeData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img}/>
+                    </div>
+                ))
+            }
+            </div>
+        </div>
+        <div>
+            <h1>TRENDING IN WESTERN WEAR</h1>
+            <div className="wtrend">
+            {
+                wtrendData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img}/>
+                    </div>
+                ))
+            }
+            </div>
+        </div>
+        <div>
+            <h1>TRENDING IN INDIAN WEAR</h1>
+            <div className="indtrend">
+            {
+                indianWearData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img}/>
+                    </div>
+                ))
+            }
+            </div>
+        </div>
+        <div>
+            <h1>TRENDING IN SPORTS WEAR</h1>
+            <div className="sporttrend">
+            {
+                sportData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img}/>
+                    </div>
+                ))
+            }
+            </div>
+        </div>
+        <div>
+            <h1>TRENDING IN FOOTWEAR</h1>
+            <div className="fweartrend">
+            {
+                footwearData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img}/>
+                    </div>
+                ))
+            }
+            </div>
+        </div>
+        <div>
+            <h1>TRENDING IN ACCESSORIES</h1>
+            <div className="accesories">
+            {
+                accessoriesData.map((item)=> (
+                    <div key={item.id} >
+                        <img src={item.img}/>
+                    </div>
+                ))
+            }
+            </div>
         </div>
     </div>
   )
