@@ -49,11 +49,121 @@ const Men = () => {
         </div>
         <div className="filter2">
             <div className="filter2-1">
-                <h6>CATEGORIES</h6>
+                <h5>CATEGORIES</h5>
                 <div className="filters">
-                <input type="checkbox" name="Kurta"/><label for="Kurta">Kurta set</label>
-                
+                <input type="checkbox" name="Kurta" /><label for="Kurta">Kurta set</label>
                 </div>
+                <div className="filters">
+                <input type="checkbox" name="dress"/><label for="dress">Dresses</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="jeans"/><label for="jeans">Jeans</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="watches"/><label for="watches">Watches</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="footware"/><label for="footware">Footware</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="sarees"/><label for="sarees">Sarees</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="electronics"/><label for="electronics">Electronics</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="makeup"/><label for="makeup">Makeup</label>
+                </div>
+
+
+        
+                <h5>BRANDS</h5>
+                <div className="filters">
+                <input type="checkbox" name="Libas" /><label for="Libas">Libas</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Biba"/><label for="Biba">Biba</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Nike"/><label for="Nike">Nike</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Lakme"/><label for="Lakme">Lakme</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Kalini"/><label for="Kalini">Kalini</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Fastrack"/><label for="Fastrack">Fastrack</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Philips"/><label for="Philips">Philips</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Daniel Klein"/><label for="Daniel Klein">Daniel Klein</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Puma"/><label for="Puma">Puma</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Apple"/><label for="Apple">Apple</label>
+                </div>
+
+
+
+                <h5>PRICE</h5>
+                <div className="filters">
+                <input type="checkbox" name="Rs. 74 to Rs. 1199"/><label for="Rs. 74 to Rs. 1199">Rs. 74 to Rs. 1199</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Rs. 1199 to Rs. 2098"/><label for="Rs. 1199 to Rs. 2098">Rs. 1199 to Rs. 2098</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Rs. 2098 to Rs. 3119"/><label for="Rs. 2098 to Rs. 3119">Rs. 2098 to Rs. 3119</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Rs. 3119 and above"/><label for="Rs. 3119 and above">Rs. 3119 and above</label>
+                </div>
+                
+
+
+                <h5>COLOR</h5>
+                <div className="filters">
+                <input type="checkbox" name="Black"/><label for="Black">Black</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Navy Blue"/><label for="Navy Blue">Navy Blue</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="White"/><label for="White">White</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Yellow"/><label for="Yellow">Yellow</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Red"/><label for="Red">Red</label>
+                </div>
+
+
+
+                <h5>DISCOUNT RANGE</h5>
+                <div className="filters">
+                <input type="checkbox" name="10% and above"/><label for="10% and above">10% and above</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="30% and above"/><label for="30% and above">30% and above</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="50% and above"/><label for="50% and above">50% and above</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="60% and above"/><label for="60% and above">60% and above</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="70% and above"/><label for="70% and above">70% and above</label>
+                </div>
+
+
             </div>
             <div className="products"></div>
         </div>
