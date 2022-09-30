@@ -12,13 +12,24 @@
 .filter2{
     display:flex;
     height:10000px;
+    
 }
 .filter2-1{
     border:2px solid rgb(10, 10, 10);
-    width:15%;
-    
+    width:10%;
 }
-.filter2-2{
+.products{
     border:2px solid red;
-    width:85%
+    width:90%
+}
+.filters{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+.filters>input{
+height:1rem;
+}
+.filters>label{
+    /* margin-left: -3.5rem; */
 }

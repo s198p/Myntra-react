@@ -49,9 +49,13 @@ const Men = () => {
         </div>
         <div className="filter2">
             <div className="filter2-1">
+                <h6>CATEGORIES</h6>
+                <div className="filters">
+                <input type="checkbox" name="Kurta"/><label for="Kurta">Kurta set</label>
                 
+                </div>
             </div>
-            <div className="filter2-2"></div>
+            <div className="products"></div>
         </div>
     </div>
   )

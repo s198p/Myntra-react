@@ -9,7 +9,8 @@ import Footer from "./Components/Footer"
 import Men from './Components/Men';
 import Women from "./Components/Women";
 import Kids from "./Components/Kids";
-import Homeliving from "./Components/Homeliving"
+import Homeliving from "./Components/Homeliving";
+import Beauty from "./Components/Beauty";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/men" element={<Men/>} />
         <Route path="/women" element={<Women/>} />
         <Route path="/kids" element={<Kids/>} />
+        <Route path="/beauty" element={<Beauty/>}/>
         <Route path="/men" element={<Homeliving/>} />
       </Routes>
       <Footer/>
