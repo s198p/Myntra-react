@@ -113,16 +113,16 @@ const Men = () => {
 
                 <h5>PRICE</h5>
                 <div className="filters">
-                <input type="checkbox" name="Rs. 74 to Rs. 1199"/><label for="Rs. 74 to Rs. 1199">Rs. 74 to Rs. 1199</label>
+                <input type="checkbox" name="Rs. 74 to Rs. 1199"/><label for="Rs. 74 to Rs. 1199">₹74-₹1199</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Rs. 1199 to Rs. 2098"/><label for="Rs. 1199 to Rs. 2098">Rs. 1199 to Rs. 2098</label>
+                <input type="checkbox" name="Rs. 1199 to Rs. 2098"/><label for="Rs. 1199 to Rs. 2098">₹1199-₹2098</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Rs. 2098 to Rs. 3119"/><label for="Rs. 2098 to Rs. 3119">Rs. 2098 to Rs. 3119</label>
+                <input type="checkbox" name="Rs. 2098 to Rs. 3119"/><label for="Rs. 2098 to Rs. 3119">₹2098-₹3119</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Rs. 3119 and above"/><label for="Rs. 3119 and above">Rs. 3119 and above</label>
+                <input type="checkbox" name="Rs. 3119 and above"/><label for="Rs. 3119 and above">₹3119 & above</label>
                 </div>
                 
 
