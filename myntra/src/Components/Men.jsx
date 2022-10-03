@@ -1,7 +1,11 @@
 import React from 'react';
 import "../css/Men.css";
+// import Mendata from "../Data/Mendata";
+// import Cards from "./Card";
+import Products from './Products';
 
 const Men = () => {
+
   return (
     <div className="mencontainer">
         <div className="filter1">
@@ -165,10 +169,15 @@ const Men = () => {
 
 
             </div>
-            <div className="products"></div>
+            <div className="products">
+            {/* {Mendata.map((item) => (
+        <Cards key={item.id} item={item} handleClick={handleClick} />
+      ))} */}
+      <Products/>
+            </div>
         </div>
     </div>
   )
 }
 
-export default Men
+export default Men;

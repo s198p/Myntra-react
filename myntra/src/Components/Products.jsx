@@ -1,16 +1,16 @@
 import React from "react";
-import list from "../data";
-import Cards from "./Card";
+import Mendata from "../Data/Mendata";
+import Card from "./Card";
 // import "../styles/amazon.css";
 
-const Amazon = ({ handleClick }) => {
+const Products = ({ handleClick }) => {
   return (
     <section>
-      {list.map((item) => (
-        <Cards key={item.id} item={item} handleClick={handleClick} />
+      {Mendata.map((item) => (
+        <Card key={item.id} item={item} handleClick={handleClick} />
       ))}
     </section>
   );
 };
 
-export default Amazon;
+export default Products;
