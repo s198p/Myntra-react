@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/Men.css";
-// import Mendata from "../Data/Mendata";
+import Mendata from "../Data/Mendata";
 // import Cards from "./Card";
 import Products from './Products';
 
@@ -9,8 +9,11 @@ const Men = () => {
   return (
     <div className="mencontainer">
         <div className="filter1">
-            <div>
-                <h4>FILTERS</h4>
+        
+            <div style={{display:"flex"}}>               
+            
+            <h4>FILTERS</h4>
+            <p style={{marginLeft:"-3.6rem"}}><b>Menswear - {Mendata.length} Items</b></p>
             </div>
             <div>
                 <select>
