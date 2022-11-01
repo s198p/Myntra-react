@@ -274,7 +274,7 @@ const Home = () => {
             <h1>DEALS OF THE DAY</h1>
             <div className="deals">
             {
-                dealsData.map((item)=> (
+                dealsData.map((item)=> (    
                     <div key={item.id} >
                         <img src={item.img}/>
                     </div>

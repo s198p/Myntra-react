@@ -18,9 +18,13 @@
     border:2px solid rgb(10, 10, 10);
     width:10%;
 }
-.products{
+.product{
     border:2px solid red;
-    width:90%
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap:2rem
 }
 .filters{
     display:flex;
@@ -35,3 +39,5 @@ margin-left:-3.5rem;
     margin-left: -3.5rem;
     font-size:1rem
 }
+
+

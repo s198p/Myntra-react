@@ -10,6 +10,9 @@
 .deals>div>img{
     height:23rem
 }
+.deals>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 .bigdeals{
     display:flex;
     gap:2rem;
@@ -19,6 +22,9 @@
 }
 .bigdeals>div>img{
     height:32rem
+}
+.bigdeals>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .categories{
     display:flex;
@@ -31,6 +37,9 @@
     height:15rem;
     width:13.5rem;
 }
+.categories>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 
 .topbrands{
     display:flex;
@@ -40,6 +49,9 @@
 }
 .topbrands>div>img{
     height:15rem;
+}
+.topbrands>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .lux{
@@ -52,6 +64,9 @@
 .lux>div>img{
     height:16.25rem
 }
+.lux>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 
 .wtrend{
     display:flex;
@@ -62,6 +77,9 @@
 }
 .wtrend>div>img{
     height:20rem
+}
+.wtrend>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .indtrend{
@@ -74,6 +92,10 @@
 .indtrend>div>img{
     height:20rem
 }
+.indtrend>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
 .sporttrend{
     display:flex;
     gap:2rem;
@@ -84,6 +106,10 @@
 .sporttrend>div>img{
     height:20rem
 }
+.sporttrend>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
 .fweartrend{
     display:flex;
     gap:2rem;
@@ -94,6 +120,10 @@
 .fweartrend>div>img{
     height:20rem
 }
+.fweartrend>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
 .accesories{
     display:flex;
     gap:2rem;
@@ -104,6 +134,11 @@
 .accesories>div>img{
     height:20rem
 }
-img{
+.accesories>div>img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+img:hover{
     cursor:pointer;
+    
 }

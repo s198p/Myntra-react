@@ -1,6 +1,7 @@
 import React from "react";
 import Mendata from "../Data/Mendata";
 import Card from "./Card";
+import "../css/Men.css";
 // import "../styles/amazon.css";
 
 const Products = ({ handleClick }) => {

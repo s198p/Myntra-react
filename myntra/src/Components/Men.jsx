@@ -1,10 +1,10 @@
 import React from 'react';
 import "../css/Men.css";
 import Mendata from "../Data/Mendata";
-// import Cards from "./Card";
-import Products from './Products';
+import Cards from "./Card";
+// import Products from './Products';
 
-const Men = () => {
+const Men = ({ handleClick}) => {
 
   return (
     <div className="mencontainer">
@@ -172,11 +172,11 @@ const Men = () => {
 
 
             </div>
-            <div className="products">
-            {/* {Mendata.map((item) => (
+            <div className="product">
+            {Mendata.map((item) => (
         <Cards key={item.id} item={item} handleClick={handleClick} />
-      ))} */}
-      <Products/>
+      ))}
+      {/* <Products/> */}
             </div>
         </div>
     </div>
