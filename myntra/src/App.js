@@ -11,6 +11,7 @@ import Women from "./Components/Women";
 import Kids from "./Components/Kids";
 import Homeliving from "./Components/Homeliving";
 import Beauty from "./Components/Beauty";
+import Cart from "./Components/Cart";
 
 
 function App() {
@@ -25,9 +26,9 @@ function App() {
         <Route path="/kids" element={<Kids/>} />
         <Route path="/beauty" element={<Beauty/>}/>
         <Route path="/men" element={<Homeliving/>} />
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
       <Footer/>
-      {/* <Home/> */}
       
     </div>
   );

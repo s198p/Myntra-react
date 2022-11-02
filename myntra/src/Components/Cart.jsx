@@ -21,7 +21,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
   });
 
   return (
-    <article>
+    <>
       {cart.map((item) => (
         <div className="cart_box" key={item.id}>
           <div className="cart_img">
@@ -43,7 +43,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
         <h1>TOTAL CART PRICE</h1>
         <h1>Rs: {price}</h1>
       </div>
-    </article>
+    </>
   );
 };
 
