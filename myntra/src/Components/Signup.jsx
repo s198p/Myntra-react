@@ -78,10 +78,10 @@ const Signup = () => {
             </div>
             <br/>
             <div>
-                <input type="email" name='email' onChange={getdata} placeholder="Enter Email*"/>
+                <input className="signinpt" type="email" name='email' onChange={getdata} placeholder="Enter Email*"/>
                 <br/>
                 <br/>
-                <input type="password" name='password' onChange={getdata} placeholder="Password"/>
+                <input className="signinpt" type="password" name='password' onChange={getdata} placeholder="Password"/>
             </div>
             <br/>
             <br/>
@@ -91,7 +91,7 @@ const Signup = () => {
             </p>
             </div>
             <div>
-                <Button onClick={addData} type="submit">SIGN UP</Button>
+                <button onClick={addData} type="submit">SIGN UP</button>
             </div>
             <br/>
             <div>
