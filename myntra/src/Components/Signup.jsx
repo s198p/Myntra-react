@@ -1,23 +1,27 @@
-import React, { useState } from 'react';
-import "../css/Signin.css";
-// import Form from 'react-bootstrap/Form'
-// import Button from 'react-bootstrap/Button'
-import { Link,useNavigate } from 'react-router-dom'
+import React, { useState } from 'react'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
+import { NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Signin = () => {
-    
+const Signup = () => {
 
-    const history = useNavigate();
+
+  const history = useNavigate();
+    // const [click,setClick]=useState(false);
 
     const [inpval, setInpval] = useState({
         email: "",
         password: ""
     })
 
-    const [data, setData] = useState([]);
-    //console.log(inpval);
+    // function handleClickk(value){
+    //     setClick(!click);
+    // }
+    const [data,setData] = useState([]);
+    console.log(inpval);
 
     const getdata = (e) => {
         // console.log(e.target.value);
@@ -39,45 +43,26 @@ const Signin = () => {
     const addData = (e) => {
         e.preventDefault();
 
-        const getuserArr = localStorage.getItem("useryou");
-        console.log(getuserArr);
+        const {email, password } = inpval;
 
-        const { email, password } = inpval;
-        if (email === "") {
-            alert('Email field is required', {
+        if (!email.includes("@")) {
+          alert('Enter valid email address',{
+              position: "top-center",
+          });
+      } 
+        else if (password === "") {
+            alert('Password field is required',{
                 position: "top-center",
             });
-        } else if (!email.includes("@")) {
-            alert('Enter valid email address', {
-                position: "top-center",
-            });
-        } else if (password === "") {
-            alert('password field is required', {
-                position: "top-center",
-            });
-        } else {
+        } 
+        else {
+            console.log("data added succesfully");
+            history("/signin")
+            localStorage.setItem("useryou",JSON.stringify([...data,inpval]));
 
-            if (getuserArr && getuserArr.length) {
-                const userdata = JSON.parse(getuserArr);
-                const userlogin = userdata.filter((el, k) => {
-                    return el.email === email && el.password === password
-                });
-
-                if (userlogin.length === 0) {
-                    alert("invalid details")
-                } else {
-                    console.log("user login succesfulyy");
-
-                    localStorage.setItem("user_login", JSON.stringify(userlogin))
-
-                    history("/")
-                }
-            }
         }
 
     }
-
-
 
   return (
     <div className="signinDiv">
@@ -88,8 +73,8 @@ const Signin = () => {
             <br/>
             <br/>
             <div className="sign1-1">
-                <h2>Log in</h2>
                 
+                <h2>Sign up</h2>
             </div>
             <br/>
             <div>
@@ -106,7 +91,7 @@ const Signin = () => {
             </p>
             </div>
             <div>
-                <button onClick={addData}>SIGN IN</button>
+                <Button onClick={addData} type="submit">SIGN UP</Button>
             </div>
             <br/>
             <div>
@@ -120,4 +105,4 @@ const Signin = () => {
   )
 }
 
-export default Signin;
+export default Signup

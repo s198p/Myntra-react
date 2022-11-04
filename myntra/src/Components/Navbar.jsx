@@ -48,7 +48,7 @@ const Navbar = ({setShow, size}) => {
             </div>
             <div className="nav">
                 
-                    <NavLink to="/profile" style={{color:"#292d3f"}}>
+                    <NavLink to="/signup" style={{color:"#292d3f"}}>
                         <div>
                             <br/>
                             <i class="fa-regular fa-user fa-md"></i>

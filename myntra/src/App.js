@@ -16,6 +16,8 @@ import Cart from "./Components/Cart";
 import Address from "./Components/Address";
 import Payment from "./Components/Payment";
 import Final from './Components/Final';
+import Signup from './Components/Signup';
+import Signin from './Components/Signin';
 
 
 function App() {
@@ -48,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <Navbar setShow={setShow} size={cart.length}/>
-      
+      {/* <Signup/> */}
       <Routes>
         <Route path="/" element={<Home  />} />
         <Route path="/men" element={<Men handleClick={handleClick}/>} />
@@ -60,8 +62,11 @@ function App() {
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} handleChange={handleChange}/>} />
         <Route path="/payment/:finalPrice" element={<Payment/>}/>
         <Route path="/final" element={<Final/>}/>
+        <Route path="/signup" element={<Signup/>} />
+        <Route path="/signin" element={<Signin/>} />
       </Routes>
       <Footer/>
+    
       
     </div>
   );
