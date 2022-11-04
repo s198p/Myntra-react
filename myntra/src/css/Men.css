@@ -4,7 +4,7 @@
 }
 .filter1{
     height:4.5%;
-    border:2px solid rgb(15, 15, 15);
+    border-bottom:1px solid rgb(225, 219, 219);
     display:flex;
     justify-content: space-between;
     align-items:baseline
@@ -15,16 +15,21 @@
     
 }
 .filter2-1{
-    border:2px solid rgb(10, 10, 10);
+    border-right:2px solid rgb(224, 217, 217);
+    /* border-bottom:2px solid rgb(224, 217, 217); */
     width:10%;
+    /* height:auto; */
 }
 .product{
-    border:2px solid red;
+    /* border:2px solid red; */
     width:90%;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
-    gap:2rem
+    gap:2rem;
+    align-items: center;
+    
+    padding:1rem 1rem 0rem 1.5rem;
 }
 .filters{
     display:flex;
@@ -38,6 +43,16 @@ margin-left:-3.5rem;
 .filters>label{
     margin-left: -3.5rem;
     font-size:1rem
+}
+.productImg>img{
+    height:18rem
+}
+.selectfil{
+    border:none;
+}
+.productStrikePrice{
+    text-decoration: line-through;
+    color:rgb(168, 163, 163);
 }
 
 

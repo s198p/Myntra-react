@@ -16,23 +16,23 @@ const Men = ({ handleClick}) => {
             <p style={{marginLeft:"-3.6rem"}}><b>Menswear - {Mendata.length} Items</b></p>
             </div>
             <div>
-                <select>
+                <select className="selectfil">
                     <option value>Age</option>
                     <option value="14y+">14Y+</option>
                     <option value="9m-12m">9M-12M</option>
                     <option value="10y-12y">10Y-12Y</option>
                     <option value="18m-24m">18M-24M</option>
                 </select>
-                <select>
+                <select className="selectfil">
                     <option value>Bundles</option>
                     <option value="bundles">Bundles</option>
                     <option value="singlestyles">Single Styles</option>
                 </select>
-                <select>
+                <select className="selectfil">
                     <option value>Country Of Origin</option>
                     <option value="allcountries">All Countries</option>
                 </select>
-                <select >
+                <select className="selectfil">
                     <option value>Size</option>
                     <option value="small">S</option>
                     <option value="medium">M</option>
@@ -42,7 +42,7 @@ const Men = ({ handleClick}) => {
                 </select>
             </div>
             <div>
-            <select onchange="sorting()" id="sortby">
+            <select onchange="sorting()" id="sortby" >
                     
                     <option value>Recommended</option>
                     <option value="whatsnew">What's New</option>
@@ -54,6 +54,7 @@ const Men = ({ handleClick}) => {
                 </select>
             </div>
         </div>
+        
         <div className="filter2">
             <div className="filter2-1">
                 <h5>CATEGORIES</h5>

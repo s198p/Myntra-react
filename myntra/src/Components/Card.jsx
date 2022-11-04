@@ -14,10 +14,13 @@ return (
                 <img src={image_url} alt="" />
             </div>
             <div className="productInfo">
-                <p className="productName">{name}</p>
+                <b className="productName">{name}</b>
                 <p className="productTags">{tags}</p>
-                <p className="productPrice">Price - {price}Rs</p>
-                <p className="productStrikePrice">{strikedoffprice}</p>
+                <div style={{display:"flex",gap:"1rem"}}>
+                    <p className="productPrice">Price: ₹{price}</p>
+                    <p className="productStrikePrice">₹{strikedoffprice}</p>
+                </div>
+                
                 <button onClick={() => handleClick(item)} className="cartBtn"
                 >Add to Cart</button>
             </div>
