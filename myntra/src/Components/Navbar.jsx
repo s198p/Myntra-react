@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 import "../css/Navbar.css";
 
 
-const Navbar = () => {
+const Navbar = ({setShow, size}) => {
   return (
     <div>
         <div className="navbar">
@@ -12,26 +12,32 @@ const Navbar = () => {
             </NavLink>
             <div className="menlink" >
                 <NavLink to="/men" style={{fontSize:"1rem",color:"#292d3f"}}
+                onClick={() => setShow(true)}
                 >MEN</NavLink>
             </div>
             <div className="womenlink">
                 <NavLink to="women" style={{fontSize:"1rem",color:"#292d3f"}}
+                onClick={() => setShow(true)}
                 >WOMEN</NavLink>
             </div>
             <div className="kidslink">
                 <NavLink to="/kids" style={{fontSize:"1rem",color:"#292d3f"}}
+                onClick={() => setShow(true)}
                 >KIDS</NavLink>
             </div>
             <div className="homelivinglink">
                 <NavLink to="/home&living" style={{fontSize:"1rem",color:"#292d3f"}}
+                onClick={() => setShow(true)}
                 >HOME & LIVING</NavLink>
             </div>
             <div className="beautylink">
                 <NavLink to="beauty" style={{fontSize:"1rem",color:"#292d3f"}}
+                onClick={() => setShow(true)}
                 >BEAUTY</NavLink>
             </div>
             <div className="studiolink">
                 <NavLink to="studio" style={{fontSize:"1rem",color:"#292d3f"}}
+                onClick={() => setShow(true)}
                 >STUDIO</NavLink>
             </div>
             
@@ -61,11 +67,13 @@ const Navbar = () => {
                     </NavLink>
                 
                 
-                    <NavLink to="/cart" style={{color:"#292d3f"}}>
+                    <NavLink to="/cart" style={{color:"#292d3f"}}
+                    onClick={() => setShow(false)}>
                         <div>
                             <br/>
                             <i class="fa-solid fa-bag-shopping fa-md"></i>
                             <p>Bag</p>
+                            <span>{size}</span>
                         </div>               
                     </NavLink>
                 
