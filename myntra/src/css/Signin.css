@@ -27,7 +27,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 } */
-button{
+.signbtn{
     width: 95%;
     background-color: #ff3e6c;
     border:none;

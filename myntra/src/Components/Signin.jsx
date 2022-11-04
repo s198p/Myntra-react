@@ -106,7 +106,7 @@ const Signin = () => {
             </p>
             </div>
             <div>
-                <button onClick={addData}>SIGN IN</button>
+                <button className="signbtn" onClick={addData}>SIGN IN</button>
             </div>
             <br/>
             <div>
