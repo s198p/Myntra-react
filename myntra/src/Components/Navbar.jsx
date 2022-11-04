@@ -69,13 +69,15 @@ const Navbar = ({setShow, size}) => {
                 
                     <NavLink to="/cart" style={{color:"#292d3f"}}
                     onClick={() => setShow(false)}>
-                        <div>
-                            <br/>
-                            <i class="fa-solid fa-bag-shopping fa-md"></i>
-                            <p>Bag</p>
-                            <span>{size}</span>
-                        </div>               
+                        <div >
+                            <br/>                           
+                                <i class="fa-solid fa-bag-shopping fa-md"></i>
+                                <p>Bag</p>                                                       
+                        </div>                                      
                     </NavLink>
+                    <div style={{backgroundColor:"red",borderRadius:"50%",height:"1.5rem",width:"1.5rem",marginLeft:"-1.5rem"}}>
+                            <b style={{color:"white"}}>{size}</b>
+                    </div>
                 
             </div>
             
