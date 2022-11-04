@@ -1,7 +1,12 @@
-import React from 'react';
+import React,{ useState} from 'react';
+import {Link,useParams} from "react-router-dom";
 import "../css/Payment.css";
 
 const Payment = () => {
+    const totalPrice = useParams();
+    const [showw,setShoww] = useState(false);
+
+
   return (
     <div className="cart">
         <div className="mainDiv">
@@ -9,9 +14,9 @@ const Payment = () => {
             <h4>Chose Payment Mode</h4>
             <div className="payment">
                 <div className="mode">
-                    <div>
+                    <div onClick={()=>setShoww(!showw)}>
                         <i className="fa-brands fa-amazon-pay"></i>
-                        <h5>Cash On Delivery (Cash/Card/UPI)</h5>
+                        <h5 >Cash On Delivery (Cash/Card/UPI)</h5>
                     </div>
                     <div className="on" onclick="openwindow()">
                         <i className="fa-solid fa-credit-card"></i>
@@ -37,14 +42,13 @@ const Payment = () => {
                 <div className="paymentDiv">
                     <h4>Cash On Delivery</h4>
                     <div className="infopay">
-                        <p>Please confirm that you will pay the following amount throgh cash on delivery </p>
-                        <h3>₹699</h3>
+                        <p>Please confirm that you will pay the following amount through cash on delivery </p>
+                        <h3>₹{totalPrice.finalPrice}</h3>
                     </div>
-                    <a href="otp2.html">
-                        <div className="pay">
-                            VERIFY & PAY
-                        </div>
-                    </a>
+                    {showw &&
+                    <div className="pay" >
+                        <Link style={{color:"white"}} to="/final">VERIFY & PAY</Link>
+                    </div>}                        
                 </div>
             </div>
             <div className="lastBox" style={{display:"flex",justifyContent: "center"}}>
@@ -83,7 +87,7 @@ const Payment = () => {
                     Total Amount
                 </div>
                 <div>
-                    ₹699
+                    ₹{totalPrice.finalPrice}
                 </div>
             </div>
         </div>

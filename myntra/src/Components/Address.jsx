@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink,useParams} from "react-router-dom";
 import "../css/Address.css"
 
-const Address = ({}) => {
+const Address = () => {
     const totalPrice = useParams();
     // console.log(totalPrice);
   return (
@@ -77,7 +77,7 @@ const Address = ({}) => {
                     ₹{totalPrice.finalPrice}
                 </div>
             </div>
-            <NavLink to="/payment" > 
+            <NavLink to={`/payment/${totalPrice.finalPrice}`} > 
             <div className="place">           
                 CONTINUE
             </div>

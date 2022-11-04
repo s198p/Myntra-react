@@ -15,6 +15,7 @@ import Beauty from "./Components/Beauty";
 import Cart from "./Components/Cart";
 import Address from "./Components/Address";
 import Payment from "./Components/Payment";
+import Final from './Components/Final';
 
 
 function App() {
@@ -57,7 +58,8 @@ function App() {
         <Route path="/men" element={<Homeliving handleClick={handleClick}/>} />
         <Route path="/address/:finalPrice" element={<Address/>} />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} handleChange={handleChange}/>} />
-        <Route path="/payment" element={<Payment/>}/>
+        <Route path="/payment/:finalPrice" element={<Payment/>}/>
+        <Route path="/final" element={<Final/>}/>
       </Routes>
       <Footer/>
       

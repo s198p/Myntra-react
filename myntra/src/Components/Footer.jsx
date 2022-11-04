@@ -5,7 +5,7 @@ const Footer = () => {
   return (
 <div>
 <div className="footer">
-        <div className="mainDiv">
+        {/* <div className="mainDiv">
             <div className="d">
                     <p>ONLINE SHOPPING</p>
                     <p>Men</p>
@@ -62,7 +62,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
         <div className="pline">
