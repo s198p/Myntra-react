@@ -129,6 +129,44 @@ const Men = ({ handleClick}) => {
 
 
 
+                
+
+                <h5>COLOR</h5>
+                <div className="filters">
+                <input type="checkbox" name="Black" onClick={()=>filterColor("black")}/><label for="Black">Black</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Yellow" onClick={()=>filterColor("yellow")}/><label for="Yellow">Yellow</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="White" onClick={()=>filterColor("white")}/><label for="White">White</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Red" onClick={()=>filterColor("red")}/><label for="Red">Red</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Beige" onClick={()=>filterColor("beige")}/><label for="Beige">Beige</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Green" onClick={()=>filterColor("green")}/><label for="Green">Green</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Orange" onClick={()=>filterColor("orange")}/><label for="Orange">Orange</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Maroon" onClick={()=>filterColor("maroon")}/><label for="Maroon">Maroon</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Raven" onClick={()=>filterColor("raven")}/><label for="Raven">Raven</label>
+                </div>
+                <div className="filters">
+                <input type="checkbox" name="Multi" onClick={()=>filterColor("multi")}/><label for="Multi">Multi</label>
+                </div>
+
+
+
+
+
                 <h5>PRICE</h5>
                 <div className="filters">
                 <input type="checkbox" name="Rs. 74 to Rs. 1199"/><label for="Rs. 74 to Rs. 1199">₹74-₹1199</label>
@@ -145,22 +183,7 @@ const Men = ({ handleClick}) => {
                 
 
 
-                <h5>COLOR</h5>
-                <div className="filters">
-                <input type="checkbox" name="Black" onClick={()=>filterColor("black")}/><label for="Black">Black</label>
-                </div>
-                <div className="filters">
-                <input type="checkbox" name="Navy Blue"/><label for="Navy Blue">Navy Blue</label>
-                </div>
-                <div className="filters">
-                <input type="checkbox" name="White"/><label for="White">White</label>
-                </div>
-                <div className="filters">
-                <input type="checkbox" name="Yellow"/><label for="Yellow">Yellow</label>
-                </div>
-                <div className="filters">
-                <input type="checkbox" name="Red"/><label for="Red">Red</label>
-                </div>
+                
 
 
 
