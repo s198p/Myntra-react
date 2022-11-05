@@ -4,6 +4,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 549,
     strikedoffprice: 1799,
+    color:"yellow",
     amount: 1,
     id:1
   },
@@ -13,6 +14,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 459,
     strikedoffprice: 1235,
+    color:"raven",
     amount: 1,
     id:2
   },
@@ -22,6 +24,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:3
   },
@@ -31,6 +34,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 249,
     strikedoffprice: 749,
+    color:"green",
     amount: 1,
     id:4
   },
@@ -40,6 +44,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 249,
     strikedoffprice: 749,
+    color:"green",
     amount: 1,
     id:5
   },
@@ -49,6 +54,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1459,
     strikedoffprice: 1235,
+    color:"white",
     amount: 1,
     id:6
   },
@@ -58,15 +64,17 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:7
   },
   {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16590968/2021/12/23/ef2521a7-c238-4cda-9d34-6ca7936aeac11640243292593RegularFitRound-neckT-shirt1.jpg",
-    name: "Roadster",
+    name: "Nike",
     tags:"Men Cotton Pure Cotton",
     price: 459,
     strikedoffprice: 1235,
+    color:"raven",
     amount: 1,
     id:8
   },
@@ -76,6 +84,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 749,
     strikedoffprice: 1299,
+    color:"maroon",
     amount: 1,
     id:9
   },
@@ -85,15 +94,17 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1249,
     strikedoffprice: 1749,
+    color:"green",
     amount: 1,
     id:10
   },
   {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg",
-    name: "Roadster",
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg",
+    name: "HRX ",
     tags:"Men Cotton Pure Cotton",
-    price: 699,
-    strikedoffprice: 1245,
+    price: 549,
+    strikedoffprice: 1799,
+    color:"yellow",
     amount: 1,
     id:11
   },
@@ -101,17 +112,19 @@ const Mendata = [{
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11630392/2020/7/8/6ce6b0fe-eebf-48fa-8349-15adf8e5b69a1594199567990NauticaMenBlackSolidRoundNeckT-shirt1.jpg",
     name: "Roadster",
     tags:"Men Cotton Pure Cotton",
-    price: 749,
-    strikedoffprice: 1299,
+    price: 2460,
+    strikedoffprice: 3240,
+    color:"black",
     amount: 1,
     id:12
   },
   {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg",
-    name: "Roadster",
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14311832/2021/6/9/54495702-1699-4c62-98f2-17f17ee824361623221780997Mens100CottonSlimBlackTShirtTshirtsLouisPhilippeMenTshirtsLo1.jpg",
+    name: "Puma",
     tags:"Men Cotton Pure Cotton",
-    price: 699,
-    strikedoffprice: 1245,
+    price: 599,
+    strikedoffprice: 1599,
+    color:"red",
     amount: 1,
     id:13
   },
@@ -121,6 +134,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1399,
     strikedoffprice: 2799,
+    color:"multi",
     amount: 1,
     id:14
   },
@@ -130,6 +144,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 749,
     strikedoffprice: 1299,
+    color:"green",
     amount: 1,
     id:15
   },
@@ -139,15 +154,17 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1249,
     strikedoffprice: 1749,
+    color:"green",
     amount: 1,
     id:16
   },
   {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg",
-    name: "Roadster",
+    name: "Puma",
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:17
   },
@@ -157,6 +174,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1099,
     strikedoffprice: 1249,
+    color:"black",
     amount: 1,
     id:18
   },
@@ -166,6 +184,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:19
   },
@@ -173,8 +192,9 @@ const Mendata = [{
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg",
     name: "Roadster",
     tags:"Men Cotton Pure Cotton",
-    price: 699,
-    strikedoffprice: 1245,
+    price: 3445,
+    strikedoffprice: 5445,
+    color:"beige",
     amount: 1,
     id:20
   },
@@ -184,6 +204,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1249,
     strikedoffprice: 1749,
+    color:"green",
     amount: 1,
     id:21
   },
@@ -191,26 +212,29 @@ const Mendata = [{
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16590968/2021/12/23/ef2521a7-c238-4cda-9d34-6ca7936aeac11640243292593RegularFitRound-neckT-shirt1.jpg",
     name: "Roadster",
     tags:"Men Cotton Pure Cotton",
-    price: 1459,
-    strikedoffprice: 1235,
+    price: 3450,
+    strikedoffprice: 5235,
+    color:"raven",
     amount: 1,
     id:22
   },
   {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2215210/2018/1/22/11516616541193-Roadster-Men-Beige-Colourblocked-Round-Neck-T-shirt-8181516616541016-1.jpg",
-    name: "Highlander",
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16878798/2022/2/14/de6d4293-6a2a-42ba-ac19-0462d95e72931644817872901-Louis-Philippe-Jeans-Men-Tshirts-9211644817872452-1.jpg",
+    name: "Roadster",
     tags:"Men Cotton Pure Cotton",
-    price: 1249,
-    strikedoffprice: 1489,
+    price: 749,
+    strikedoffprice: 1299,
+    color:"orange",
     amount: 1,
     id:23
   },
   {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12377258/2020/9/11/ce1b7bcb-a65a-4eb0-a317-42ac02718f1e1599798741705UrbanoFashionPrintedMenRoundNeckDarkGreenT-Shirt1.jpg",
-    name: "Roadster",
+    name: "Puma",
     tags:"Men Cotton Pure Cotton",
     price: 749,
     strikedoffprice: 1299,
+    color:"green",
     amount: 1,
     id:24
   },
@@ -220,6 +244,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:25
   },
@@ -229,15 +254,17 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:26
   },
   {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16430352/2022/1/19/dd8e1cd9-3d30-4793-afeb-2fb83a066c541642586795859-U-S-Polo-Assn-Men-Teal-Brand-Logo-Printed-Polo-Collar-Pure-C-6.jpg",
-    name: "Highlander",
+    name: "Nike",
     tags:"Men Cotton Pure Cotton",
     price: 1249,
     strikedoffprice: 1749,
+    color:"green",
     amount: 1,
     id:27
   },
@@ -247,6 +274,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:28
   },
@@ -256,6 +284,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1459,
     strikedoffprice: 1235,
+    color:"white",
     amount: 1,
     id:29
   },
@@ -265,6 +294,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:30
   },
@@ -274,15 +304,17 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1459,
     strikedoffprice: 1235,
+    color:"raven",
     amount: 1,
     id:31
   },
   {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2215210/2018/1/22/11516616541193-Roadster-Men-Beige-Colourblocked-Round-Neck-T-shirt-8181516616541016-1.jpg",
-    name: "Highlander",
+    name: "Nike",
     tags:"Men Cotton Pure Cotton",
     price: 849,
     strikedoffprice: 2599,
+    color:"multi",
     amount: 1,
     id:32
   },
@@ -292,6 +324,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:33
   },
@@ -301,6 +334,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 749,
     strikedoffprice: 1299,
+    color:"orange",
     amount: 1,
     id:34
   },
@@ -310,6 +344,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:35
   },
@@ -319,6 +354,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:36
   },
@@ -328,6 +364,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1550,
     strikedoffprice: 2599,
+    color:"black",
     amount: 1,
     id:37
   },
@@ -337,15 +374,17 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 599,
     strikedoffprice: 1599,
+    color:"red",
     amount: 1,
     id:38
   },
   {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16590968/2021/12/23/ef2521a7-c238-4cda-9d34-6ca7936aeac11640243292593RegularFitRound-neckT-shirt1.jpg",
-    name: "Roadster",
+    name: "Nike",
     tags:"Men Cotton Pure Cotton",
     price: 459,
     strikedoffprice: 1235,
+    color:"raven",
     amount: 1,
     id:39
   },
@@ -355,6 +394,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:40
   },
@@ -364,6 +404,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 749,
     strikedoffprice: 1299,
+    color:"multi",
     amount: 1,
     id:41
   },
@@ -373,15 +414,17 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 1099,
     strikedoffprice: 1249,
+    color:"multi",
     amount: 1,
     id:42
   },
   {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/30/40d1acd0-2107-4b9b-b83e-be77bd4f96db1619800221800-1.jpg",
-    name: "Roadster",
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/3314141/2018/5/19/e55c2244-8515-44d5-93da-d719f3f8d4551526706357637-Roadster-Men-Tshirts-6461526706356615-1.jpg",
+    name: "Highlander",
     tags:"Men Cotton Pure Cotton",
-    price: 749,
-    strikedoffprice: 1299,
+    price: 1749,
+    strikedoffprice: 2599,
+    color:"maroon",
     amount: 1,
     id:43
   },
@@ -391,6 +434,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 459,
     strikedoffprice: 1235,
+    color:"raven",
     amount: 1,
     id:44
   },
@@ -400,6 +444,7 @@ const Mendata = [{
     tags:"Men Cotton Pure Cotton",
     price: 699,
     strikedoffprice: 1245,
+    color:"beige",
     amount: 1,
     id:45
   },

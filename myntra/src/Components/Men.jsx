@@ -1,10 +1,20 @@
-import React from 'react';
+import React,{ useState} from 'react';
 import "../css/Men.css";
 import Mendata from "../Data/Mendata";
 import Cards from "./Card";
 // import Products from './Products';
 
 const Men = ({ handleClick}) => {
+
+    const [mdata,setMdata] = useState(Mendata);
+
+    const filterColor = (colorItem) =>{
+        const result = Mendata.filter((currentData)=>{
+            return currentData.color===colorItem;
+        })
+        setMdata(result)
+        }
+    
 
   return (
     <div className="mencontainer">
@@ -13,7 +23,7 @@ const Men = ({ handleClick}) => {
             <div style={{display:"flex"}}>               
             
             <h4>FILTERS</h4>
-            <p style={{marginLeft:"-3.6rem"}}><b>Menswear - {Mendata.length} Items</b></p>
+            <p style={{marginLeft:"-3.6rem"}}><b>Menswear: {mdata.length} Items</b></p>
             </div>
             <div>
                 <select className="selectfil">
@@ -137,7 +147,7 @@ const Men = ({ handleClick}) => {
 
                 <h5>COLOR</h5>
                 <div className="filters">
-                <input type="checkbox" name="Black"/><label for="Black">Black</label>
+                <input type="checkbox" name="Black" onClick={()=>filterColor("black")}/><label for="Black">Black</label>
                 </div>
                 <div className="filters">
                 <input type="checkbox" name="Navy Blue"/><label for="Navy Blue">Navy Blue</label>
@@ -174,7 +184,7 @@ const Men = ({ handleClick}) => {
 
             </div>
             <div className="product">
-            {Mendata.map((item) => (
+            {mdata.map((item) => (
         <Cards key={item.id} item={item} handleClick={handleClick} />
       ))}
       {/* <Products/> */}

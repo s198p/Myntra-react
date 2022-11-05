@@ -11,7 +11,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
     handlePrice();
   };
 
-  
+ 
 
   const handlePrice = () => {
     let ans = 0;
@@ -142,11 +142,13 @@ const Cart = ({ cart, setCart, handleChange }) => {
                     <p></p>
                 </div> 
             </div>
-            <NavLink to={`/address/${price}`}>
+            {
+              cart.length>=1 && <NavLink to={`/address/${price}`} >
               <div className="place">
                 PLACE ORDER
               </div>
             </NavLink>
+            }
         </div>
     </div>
   );
