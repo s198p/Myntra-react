@@ -97,21 +97,21 @@ const Men = ({ handleClick}) => {
         
                 <h5>BRANDS</h5>
                 <div className="filters">
-                <input type="checkbox" name="Libas" /><label for="Libas">Libas</label>
+                <input type="checkbox" name="HRX" /><label for="HRX">HRX</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Biba"/><label for="Biba">Biba</label>
+                <input type="checkbox" name="Puma"/><label for="Puma">Puma</label>
                 </div>
                 <div className="filters">
                 <input type="checkbox" name="Nike"/><label for="Nike">Nike</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Lakme"/><label for="Lakme">Lakme</label>
+                <input type="checkbox" name="Roadster"/><label for="Roadster">Roadster</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Kalini"/><label for="Kalini">Kalini</label>
+                <input type="checkbox" name="Highlander"/><label for="Highlander">Highlander</label>
                 </div>
-                <div className="filters">
+                {/* <div className="filters">
                 <input type="checkbox" name="Fastrack"/><label for="Fastrack">Fastrack</label>
                 </div>
                 <div className="filters">
@@ -121,15 +121,12 @@ const Men = ({ handleClick}) => {
                 <input type="checkbox" name="Daniel Klein"/><label for="Daniel Klein">Daniel Klein</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Puma"/><label for="Puma">Puma</label>
-                </div>
-                <div className="filters">
                 <input type="checkbox" name="Apple"/><label for="Apple">Apple</label>
-                </div>
+                </div> */}
 
 
 
-                
+
 
                 <h5>COLOR</h5>
                 <div className="filters">
