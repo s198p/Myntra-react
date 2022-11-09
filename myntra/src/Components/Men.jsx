@@ -14,6 +14,13 @@ const Men = ({ handleClick}) => {
         })
         setMdata(result)
         }
+
+    const filterBrand = (brand) =>{
+            const result = Mendata.filter((currentData)=>{
+                return currentData.name===brand;
+            })
+            setMdata(result)
+            }
     
 
   return (
@@ -97,19 +104,19 @@ const Men = ({ handleClick}) => {
         
                 <h5>BRANDS</h5>
                 <div className="filters">
-                <input type="checkbox" name="HRX" /><label for="HRX">HRX</label>
+                <input type="checkbox" name="HRX" onClick={()=>filterBrand("HRX")}/><label for="HRX">HRX</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Puma"/><label for="Puma">Puma</label>
+                <input type="checkbox" name="Puma" onClick={()=>filterBrand("Puma")}/><label for="Puma">Puma</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Nike"/><label for="Nike">Nike</label>
+                <input type="checkbox" name="Nike" onClick={()=>filterBrand("Nike")}/><label for="Nike">Nike</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Roadster"/><label for="Roadster">Roadster</label>
+                <input type="checkbox" name="Roadster" onClick={()=>filterBrand("Roadster")}/><label for="Roadster">Roadster</label>
                 </div>
                 <div className="filters">
-                <input type="checkbox" name="Highlander"/><label for="Highlander">Highlander</label>
+                <input type="checkbox" name="Highlander" onClick={()=>filterBrand("Highlander")}/><label for="Highlander">Highlander</label>
                 </div>
                 {/* <div className="filters">
                 <input type="checkbox" name="Fastrack"/><label for="Fastrack">Fastrack</label>
