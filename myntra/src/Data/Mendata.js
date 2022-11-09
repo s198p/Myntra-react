@@ -1,6 +1,6 @@
 const Mendata = [{
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg",
-    name: "HRX ",
+    name: "HRX",
     tags:"Men Cotton Pure Cotton",
     price: 549,
     strikedoffprice: 1799,
@@ -100,7 +100,7 @@ const Mendata = [{
   },
   {
     image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg",
-    name: "HRX ",
+    name: "HRX",
     tags:"Men Cotton Pure Cotton",
     price: 549,
     strikedoffprice: 1799,
